@@ -1,4 +1,7 @@
 def caching_fibonacci():
+    """
+    Calculates and cache fibonachi numbers
+    """
     cache = {}
     def fibonacci(n):
         if n <= 0:
